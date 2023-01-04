@@ -47,9 +47,5 @@ block
 
 1. git branch >> will find out what branch you are in and what branches that have already been created
 2. git branch [branchName]
-3. add stuff to the branch i.e. files 
-4. add and commit
-5. merge branch with main branch
-6. add and commit
-7. git push
+
 
