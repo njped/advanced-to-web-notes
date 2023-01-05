@@ -47,5 +47,14 @@ block
 
 1. git branch >> will find out what branch you are in and what branches that have already been created
 2. git branch [branchName]
+    * git checkout -b [branchName]
+3. 
 
 
+### Merge and Diff
+1. git checkout -b [branchName]
+2. make changes to files
+3. git add and commit
+4. git push
+5. git merge main
+6. git diff main [branchName]
