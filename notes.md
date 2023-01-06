@@ -58,3 +58,6 @@ block
 4. git push
 5. git merge main
 6. git diff main [branchName]
+
+### Merge Errors
+* When working with branches make sure to pull before you push your code it helps avoiding merge problems
