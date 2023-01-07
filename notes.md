@@ -60,4 +60,28 @@ block
 6. git diff main [branchName]
 
 ### Merge Errors
-* When working with branches make sure to pull before you push your code it helps avoiding merge problems
+* When working with branches make sure to pull before you push your code it helps avoiding merge problemscd 
+
+## Bash Shell
+* Bash is a command line shell
+    * gives you UNIX commands
+    * effciently to run complex tasks
+* Dominant shell on UNIX
+* The UNIX philosoply
+    * Write programs that do one thing and do it well
+    * Write programs to work well
+    * Write programs to handle text streams
+        * because that is a universal interface
+* Copying Command
+    * `cp -R source_dir target_dir`
+    * you can have multiple directories for the source directory even a files will work
+* Remove Command
+    * rm will permantently remove files
+    * rmdir will remove empty directories
+    * rm -r will remove directories and everything in it 
+        * be careful with this command there is no going back
+* Inspect Command
+    * -i
+        * `rm -ri` will ask you if want to remove directory and files one by one
+* You can checkout on commits
+    *     do git log to find the unique commit source name to checkout to
