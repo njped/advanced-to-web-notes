@@ -85,3 +85,26 @@ block
         * `rm -ri` will ask you if want to remove directory and files one by one
 * You can checkout on commits
     *     do git log to find the unique commit source name to checkout to
+
+# Soft Skills
+
+## Working in a Software Company
+* Industry
+* Type of Dev Company
+* Company Size
+* Market (Who are the competitors)
+* Users/Customers
+* Products/Service
+
+### Questions to ask Myself
+* How do software companies get work done?
+* What are the different typpes of web developer jobs?
+* What Knowledge, Skills & Abilities do you need
+
+### What are THEY Looking for?
+* Resume - updating resume to fit the goals or the PLAN of the company
+
+### Searching for Jobs
+* Networking
+    1. Have neighbors or colleagues to help find jobs that are hiring
+    2. Use linkedIn or indeed to network online to show skills that I have
