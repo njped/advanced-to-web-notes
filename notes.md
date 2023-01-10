@@ -86,6 +86,12 @@ block
 * You can checkout on commits
     *     do git log to find the unique commit source name to checkout to
 
+# Html and CSS
+
+## Inspecting Code
+* be care of overlapping tags in html
+
+
 # Soft Skills
 
 ## Working in a Software Company
