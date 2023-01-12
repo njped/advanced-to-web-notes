@@ -91,6 +91,83 @@ block
 ## Inspecting Code
 * be care of overlapping tags in html
 
+## CSS Modules
+* Selectors
+    * Attributes
+        * input[id]
+        * [attribute = "value"] // exact string value is "value"
+        * [attribute ~= "value"] // space limited
+        * [attribute *= "value"] // not space limited
+        * Immediate child selector
+            * `>`
+                * div > p {
+
+                }
+        * Descendant selector
+            * ` ` space selector
+                * div p {
+
+                }
+        * Immediate Sibling selector
+            * `+`
+                * p + span {
+
+                }
+        * Non-Imediate Sibling selector 
+            * `~`
+                * p ~ span {
+
+                }
+        * Pseudo Classes
+            * :first-child
+            * :last-child
+            * :only-child
+            * nth-child
+            * first-of-type
+            * last-of-type
+* Box Models
+* Backgrounds and Borders
+    * Background
+        ```
+        body {
+            background-image: url();
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        ```
+    * Positions
+        * Static - default position (render in order)
+        * Relative
+            * You need give position relative and an offset
+                * Offset: top, left, bottom, right
+            * if you don't do both it will act like a static position
+        * Absolute
+            * position is very similar to fixed but it's fixed to it's parent/ancestor
+        * Fixed
+            * Postion is relative to the user's view point
+                ```
+                bottom: 0px;
+                left: 0px;
+                ```
+            * Fixed position will be at the bottom left
+        * Sticky
+            * use offsets for positioning but when it leaves offset position it will stick to the top of the screen
+                * Ex. Menu bars will sometimes follow the user when they are scrolling the web page
+        * Offsets
+            * Top
+            * Bottom
+            * Left
+            * Right
+            * Width
+            * Height
+            * Z-Index
+                * -1 puts it behind the header or image
+                * needs a position 
+* Text Effects
+* Transformations
+* Transitions and Animations
+
+
 
 # Soft Skills
 
