@@ -126,6 +126,8 @@ block
             * first-of-type
             * last-of-type
 * Box Models
+    * Flexbox
+
 * Backgrounds and Borders
     * Background
         ```
@@ -165,6 +167,8 @@ block
                 * needs a position 
 * Text Effects
 * Transformations
+    * SVG
+        * vector graphic designs
 * Transitions and Animations
 
 
