@@ -127,6 +127,9 @@ block
             * last-of-type
 * Box Models
     * Flexbox
+        * Display: flex -- works only on direct children
+    
+    Flexbox Guide -- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 * Backgrounds and Borders
     * Background
@@ -171,6 +174,22 @@ block
         * vector graphic designs
 * Transitions and Animations
 
+### Cascade Algotithm
+1. user agent normal
+2. user agent !important
+3. user normal
+4. author normal
+5. css animation
+6. author !important
+7. user !important
+
+!important overwrite
+
+* Selector Specificity
+    1. Inline Style
+    2. ID's
+    3. Classes
+    4. Elements and Pseudo-Elements
 
 
 # Soft Skills
