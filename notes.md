@@ -130,6 +130,7 @@ block
         * Display: flex -- works only on direct children
     
     Flexbox Guide -- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    Flexbox Game -- flexbox froggy
 
 * Backgrounds and Borders
     * Background
@@ -169,6 +170,22 @@ block
                 * -1 puts it behind the header or image
                 * needs a position 
 * Text Effects
+    * Colors 
+        * rgba (255,255,255,0.5)
+            * the .5 is transparentcy this is not like the CSS opacity rule the opacity rule affects the parent and child element but the rgba will only affect the element you are on.
+    * Background
+        * background-color
+        * background-image
+        * background-repeat
+        * background-attachment
+        * background-position
+    * Text
+        * px - pixels
+        * em - industry font size
+        * text-align
+        * text-decoration: none
+        * color
+        * font-weight: bold
 * Transformations
     * SVG
         * vector graphic designs
