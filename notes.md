@@ -91,6 +91,39 @@ block
 ## Inspecting Code
 * be care of overlapping tags in html
 
+## Lists, Tables, Frames and Forms
+* Lists
+    * `<ul>` -- will use `<li>` to create a nesting list
+    * Shortcut
+        * `ul>li*3{Itmes$}`
+            * `>` means child of the ancestor
+            * `{}` means what do you want in the elment
+            * `$` numbers the children in order e.x. Items1, Items2, Items3,
+* Tables
+    * `<thead>` is the header of the tale
+        * `<th>` will go in the header of the table
+    * `<tbody>`
+        * `<td>` will go in the body of the table -- td means table data
+    * `<tr>` is row for the table
+    * `<td colspan='3'>` -- colapses 3 colums
+    * `<td rowspan='2'>` -- colapses 2 rows
+    * colgroup example
+    ```
+    <colgroup>
+        <col>
+        <col>
+        <col>
+    </colgroup>
+    ```
+    * 
+* Frames
+    * `<iframe>`
+* Forms
+    * `<input>` and `<label>` are your friends
+        * `<input>` has a lot of attributes
+            * __*type attribute is really important and has a lot of uses better look up these*__
+    * forms work heavily with javascript
+
 ## CSS Modules
 * Selectors
     * Attributes
