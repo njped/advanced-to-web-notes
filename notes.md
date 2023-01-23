@@ -223,6 +223,24 @@ block
     * SVG
         * vector graphic designs
 * Transitions and Animations
+    * Animations
+        * @keyframes
+        ```
+        @keyframes colorChange {
+            from {background-color: grey;}
+            to {background-color: red}
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: grey;
+            animation-name: colorChange;
+            duration: 5s
+        }
+        ```
+    * Transitions
+    * Media
 
 ### Cascade Algotithm
 1. user agent normal
