@@ -260,6 +260,11 @@ block
     4. Elements and Pseudo-Elements
 
 
+# SCSS/SASS
+
+## LESS and SASS
+* LESS and SASS provide syntax that organizes CSS in programmatic fashion
+
 # Soft Skills
 
 ## Working in a Software Company
