@@ -293,8 +293,8 @@ block
 * BootStrap is mobile first -- makes it easier to position
 * This is a good website -- https://getbootstrap.com/docs/5.3/layout/grid/
     * Look at the side nav and go through them when needed
-* BootStrap starting code
 
+* BootStrap starting code
 ```
 <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
@@ -302,6 +302,11 @@ block
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 ```
+
+# JavaScript 
+
+![? and : -- if else statement](./assets/ternary-operator.png)
+* Helpful to understand how to use ? and : in javascript
 
 # Soft Skills
 
