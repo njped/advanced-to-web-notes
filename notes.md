@@ -308,6 +308,7 @@ block
 ![? and : -- if else statement](./assets/ternary-operator.png)
 * Helpful to understand how to use ? and : in javascript
 
+
 # Soft Skills
 
 ## Working in a Software Company
