@@ -308,6 +308,12 @@ block
 ![? and : -- if else statement](./assets/ternary-operator.png)
 * Helpful to understand how to use ? and : in javascript
 
+## Scope
+* Definition -- Scope is the set or group of variables, functions and objects you can access at a given time.
+
+## Hoisting
+* Definition -- Hoisting is JavaScript’s default behavior for moving all of our declarations to the top of our code. (script or function)
+
 
 # Soft Skills
 
