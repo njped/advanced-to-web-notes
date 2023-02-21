@@ -314,6 +314,58 @@ block
 ## Hoisting
 * Definition -- Hoisting is JavaScript’s default behavior for moving all of our declarations to the top of our code. (script or function)
 
+## ES6 Modules
+* ![ES6 module system](./assets/es6-module-system.png)
+* ES6 introduced a modular system that is hoped to become a standard way of using modules in javascript
+
+## Local Storage
+* Cookies were once used for general client-side storage. While this was legitimate when they were the only way to store data on the client, __it is recommended nowadays to prefer modern storage APIs.__ Cookies are sent with every request, so they can worsen performance (especially for mobile data connections). Modern APIs for client storage are the Web storage API (localStorage and sessionStorage) and IndexedDB.
+* `document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC";`
+* Web Storage APU
+    * window.localStorage // stores data with no expiration date 
+    * window.sessionStorage // stores data for one session (data is lost when the browser tab is closed)
+* ![local storage vs. session storage](./assets/browser-storages.png)
+
+* Session Storage
+```
+// Save data to sessionStorage
+sessionStorage.setItem('key', 'value');
+
+// Get saved data from sessionStorage
+let data = sessionStorage.getItem('key');
+
+// Remove saved data from sessionStorage
+sessionStorage.removeItem('key');
+
+// Remove all saved data from sessionStorage
+sessionStorage.clear();
+```
+
+* Local Storage
+```
+// Save data to localStorage
+localStorage.setItem('key', 'value');
+
+// Get saved data from localStorage
+let data = localStorage.getItem('key');
+
+// Remove saved data from localStorage
+localStorage.removeItem('key');
+
+// Remove all saved data from localStorage
+localStorage.clear();
+```
+
+## AJAX
+* ![How AJAX works](./assets/ajax-diagram.png)
+
+## JSON
+* XMLHttpRequests must be called before any other method calls
+* this.status values -- https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+* this.readyState values -- https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState
+* XMLHttpRequests.open() -- https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/open
+* XMLHttpRequests.send() -- https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/send
+* readystatechange event -- https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readystatechange_event
 
 # Soft Skills
 
