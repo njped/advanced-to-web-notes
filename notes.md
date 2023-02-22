@@ -367,6 +367,18 @@ localStorage.clear();
 * XMLHttpRequests.send() -- https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/send
 * readystatechange event -- https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readystatechange_event
 
+# _Regex_
+* https://regex101.com/ -- good place to practice regular expressions
+* ![Fundaments for regular expressions](./assets/Fundamentals-for-regular-Expressions.png)
+* ![Match characters or digits in a range [x-y]](./assets/Match-characters-or-digits-in-a-range-%5Bx-y%5D.png)
+* ![Regex Bracket Notation](./assets/regex-bracket-notation.png)
+* ![Regex Flag Search](./assets/regex-flag-search.png)
+* ![Regex Matching Characters](./assets/regex-matching-characters.png)
+* ![Regex MetaCharacters](./assets/regex-metacharacters.png)
+* ![Regex Methods](./assets/regex-methods.png)
+* ![Regex Quatifiers](./assets/regex-quantifiers.png)
+* ![Regex Syntax](./assets/regex-syntax.png)
+
 # Soft Skills
 
 ## Working in a Software Company
