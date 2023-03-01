@@ -367,7 +367,7 @@ localStorage.clear();
 * XMLHttpRequests.send() -- https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/send
 * readystatechange event -- https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readystatechange_event
 
-# _Regex_
+## _Regex_
 * https://regex101.com/ -- good place to practice regular expressions
 * ![Fundaments for regular expressions](./assets/Fundamentals-for-regular-Expressions.png)
 * ![Match characters or digits in a range [x-y]](./assets/Match-characters-or-digits-in-a-range-%5Bx-y%5D.png)
@@ -378,6 +378,15 @@ localStorage.clear();
 * ![Regex Methods](./assets/regex-methods.png)
 * ![Regex Quatifiers](./assets/regex-quantifiers.png)
 * ![Regex Syntax](./assets/regex-syntax.png)
+
+## SET Built-In Object
+* A value in the set __may only occur once__ 
+    * it unique to that set's collection
+* set.add() inserts the element into the set succesfully
+* set.has() checks if the value is already in the set object
+
+## Data Structures
+* 
 
 # Soft Skills
 
