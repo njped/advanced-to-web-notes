@@ -386,7 +386,13 @@ localStorage.clear();
 * set.has() checks if the value is already in the set object
 
 ## Data Structures
-* 
+* important to learn about understand how data is stored and sorted
+
+### Stack and Queue
+* Stack -- Last In First Out
+    * Push
+    * Pop
+* Queue -- First In First Out
 
 # Soft Skills
 
