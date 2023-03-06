@@ -387,12 +387,27 @@ localStorage.clear();
 
 ## Data Structures
 * important to learn about understand how data is stored and sorted
+* ![Big O Notation](./assets/big-O-notation.png)
+    * 
 
 ### Stack and Queue
 * Stack -- Last In First Out
     * Push
     * Pop
 * Queue -- First In First Out
+
+### Linked Lists
+* Linked list is a linear collection of data elements
+* Advantages of Linked Lists
+    * Add or Remove elements without re-alllcating the rest of the elements
+    * Add or Remove elements from any place in the list
+* ![Linked List Example](./assets/linked-list-js-example.png);
+* Linked List Methods
+    * insert - inserts a new node with the given value in the list
+    * remove - removes the first node that contains the given value
+    * contains - determines if a node with the given value is present ex: array.includes()
+    * size - returns the number of nodes in the list
+    * toString - returns the data elements in the list as a string
 
 # Soft Skills
 
