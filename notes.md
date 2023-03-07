@@ -409,6 +409,12 @@ localStorage.clear();
     * size - returns the number of nodes in the list
     * toString - returns the data elements in the list as a string
 
+## Binary Tree and Heap
+* 
+
+## Sorting Algorithm
+* 
+
 # Soft Skills
 
 ## Working in a Software Company
