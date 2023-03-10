@@ -409,10 +409,15 @@ localStorage.clear();
     * size - returns the number of nodes in the list
     * toString - returns the data elements in the list as a string
 
-## Binary Tree and Heap
-* 
+## Binary Search
+* ![Binary Search Example Part 1](./assets/binary-search-1.png)
+* ![Binary Search Example Part 2](./assets/binary-search-2.png)
+    * This example the array is not sorted first you must sort the array first
 
 ## Sorting Algorithm
+* 
+
+## Searching Algorithm
 * 
 
 # Soft Skills
