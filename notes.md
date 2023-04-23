@@ -420,6 +420,26 @@ localStorage.clear();
 ## Searching Algorithm
 * 
 
+# React, Node and NEXT
+* JSX - Javasript XHTML
+* React has both html and javascript code
+
+```
+array.map(element => {
+
+});
+```
+* map is immutable -- mutable => changable
+* React Components need to be captilized -- MyButton
+* Parentheses are HTML
+* Brackets are javascript
+
+* Re-Render
+    1. It’s the component’s initial render.
+    2. The component’s state has been updated.
+
+
+
 # Soft Skills
 
 ## Working in a Software Company
