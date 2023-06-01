@@ -439,6 +439,28 @@ array.map(element => {
     2. The component’s state has been updated.
 
 
+# Node.js
+## What is Node
+* A platform to write javascript programs
+* https://nodejs.org/api/globals.html -- just like mdn // Does not have a search bar
+
+# Backend Security and Development
+## Docker
+* Ephemeral -- the volatile temporary storage attached to your container/images which is only present during the running lifetime of the container/images
+### Docker Commands
+* docker run --> create and start up a docker container for the first time
+* docker start --> start a stopped container
+* docker ps -a --> lists all docker containers
+* docker stop [containerID] --> stops the docker container
+* docker images --> list all images
+* docker rm [containerID] --> removes the container
+* docker rmi [name] --> removes the image
+* docker help --> list all commands for docker
+* docker pull [imageName]
+
+### Docker Names and Tags
+* 
+
 
 # Soft Skills
 
