@@ -445,9 +445,14 @@ array.map(element => {
 * https://nodejs.org/api/globals.html -- just like mdn // Does not have a search bar
 
 # Backend Security and Development
+## SSL/TLS Cerificates
+* SSl --> Secure Sockets Layer (SSL) is a standard security technology for establishing an encrypted link between a server and a client
+    * SSL certificates will renew when expired, need to get it manually
+        * Will cause a lot of problems for the website owner and website usersban
+* TLS --> Transport Layer Security (TLS) 
 ## Docker
 * Ephemeral -- the volatile temporary storage attached to your container/images which is only present during the running lifetime of the container/images
-### Docker Commands
+### Docker Command Line Commands
 * docker run --> create and start up a docker container for the first time
 * docker start --> start a stopped container
 * docker ps -a --> lists all docker containers
@@ -458,8 +463,36 @@ array.map(element => {
 * docker help --> list all commands for docker
 * docker pull [imageName]
 
-### Docker Names and Tags
-* 
+![Docker Sample](/assets/docker-sample.png)
+
+### Docker File Commands
+* FROM image:tag
+    * From command must be the first command in the file
+* LABEL `<name>='<value>'`
+    * OPTIONAL --> set metadata information that appears in the image
+* WORKDIR /path/in/container
+    * Set the current working directory inside the container
+        * Uses as the relative destination for COPY or ADD commands
+* COPY <src> <dest>
+    * Copy files from the LOCAL system into the container
+* ADD <src> <dest>
+    * Similar to the COPY command but can be used on archives and internet URLs
+    * ADD can unzip files while COPY cannont
+* RUN <shell commands>
+    * Run shell commands inside the container during the Build process
+* EXPOSE <port>[/<protocol>]
+    * ![EXPOSE Docker Command](/assets/expose-command-docker.png)
+* CMD ["<exec_cmd>", "<option>", ...]
+    * CMD ["npm", "start"]
+    * Provide the command to execute when the container starts
+
+### Docker Build Context
+* docker build -t <image>:<tag>.
+    * build --> Command
+    * -t --> Options
+    * <image> --> Image Name
+    * <tag> --> Tag
+    * . --> Path
 
 
 # Soft Skills
