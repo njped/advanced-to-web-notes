@@ -451,7 +451,8 @@ array.map(element => {
         * Will cause a lot of problems for the website owner and website usersban
 * TLS --> Transport Layer Security (TLS) 
 ## Docker
-* Ephemeral -- the volatile temporary storage attached to your container/images which is only present during the running lifetime of the container/images
+* Ephemeral --> the volatile temporary storage attached to your container/images which is only present during the running lifetime of the container/images
+* Continuous Integration, Continuous Deployment(CICD) --> is a method to frequently deliver apps to customers by introducing automation into the stages of app development.
 ### Docker Command Line Commands
 * docker run --> create and start up a docker container for the first time
 * docker start --> start a stopped container
@@ -494,6 +495,45 @@ array.map(element => {
     * <tag> --> Tag
     * . --> Path
 
+## AWS
+### Cloud Concepts
+* Cloud Computing is the on-demand delivery of compute power. database, storage, applications, and other IT resources via the internet with pay-as-you-go pricing
+* IaaS (infrastructure as a service) --> more control over IT resources
+* Paas (platform as a service) --> middle between both Iaas and SaaS
+* SaaS (software as a service) --> less control over IT resources
+
+* AWS Perspectives
+    -   Business
+    -   People
+    -   Governace
+    -   Security
+    -   Operations
+    -   
+
+### Cloud Economics and Billing
+* Three fundamental frivers of cost with AWS
+    -   Compute
+    -   Storage
+    -   Data Transfer
+* Pay for what we need
+* Total Cost of Ownership(TCO) --> is the financial estimate to help identify direct and indirect costs of a system
+    -   Server Costs
+    -   Storage Costs
+    -   Network Costs
+    -   IT Labor Costs
+
+
+
+## Automated QA
+
+### Unit Testing
+* Unit Test --> Tests one small part of your code
+* Integration Test --> Test how the whole application works
+* Automated Test --> Test the users experience in the browser
+* Test Driven Development (TDD) --> We use unit tests to drive the development of our software. We define tests first, and then write the code that makes the tests pass.
+* Behavior Driven Development(BDD) --> we define behaviors first, then define thetests that implement those behaviors, then write the code that implements the test. By defining behaviors first, we are able to make the tests useful as verification that we are building the right feature, and asking the correct questions, not just that our code is correct. We use phrasing in business language, thus making it useful to every member of a cross-functional product team.
+* Jasmine BDD testing browser
+    * https://jasmine.github.io/tutorials/your_first_suite
 
 # Soft Skills
 
