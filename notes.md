@@ -524,6 +524,71 @@ array.map(element => {
 
 
 
+### AWS Global Infrastructure
+* AWS Region is a geographical area
+    -   Data replication across Regions is controlled by us
+    -   Communication between Regions uses AWS backbone network infrastructure
+* A Region typically consists of two or more Availability Zones
+* Selecting a Region
+    -   Data goverance legal requirements
+    -   Proximity to Consumers
+    -   Services available within the Region
+    -   Costs (vary by Region)
+* Availability Zone is a fully isolated partition of the AWS infrastructure
+    -   Avaiblability Zones consist of discrete data centers
+    -   They are designed for fault isolation
+* Points of Presence
+    -   A global Content Delivery Network (CDN), that delivers content to end users with reduced latency
+* AWS infrasture features
+    * Elasticity and scalability
+        -   Elastic infrastructure; dynamic adaption of capacity
+        -   Scalable infrastructure; adapts to accommodate growth
+    * Fault-tolerance
+        -   Continues operating properly in the presence of a failure
+        -   Built-in redundancy of components
+    * High availability
+        -   High level of operational performace
+        -   Minimized downtime
+        -   No human intervention
+
+### AWS Cloud Security
+* Customer --> Responsibilty for security 'in' the cloud
+* AWS --> Responsibilty for security 'of' the cloud
+* Infrustructure as a service is customer mangaged (IaaS)
+* Platform as a service is AWS managed (PaaS)
+* Software as a service is AWS managed(SaaS)
+* IAM 
+    -   IAM User
+    -   IAM Group
+    -   IAM Role
+    * IAM User
+        * Programmatic Access
+            -   Access Key ID
+            -   Secret Access Key
+        * AWS Management Console Access
+            -   IAM username
+            -   IAM password
+            -   12-digit Account ID or alias
+            -   multi-factor authentication (MFA)
+    * IAM policy is a document that defines permissions
+    * Resource-based policies are attached to a resource (not to a user, group or role)
+    * IAM Group
+        * A collection of IAM Users
+    * IAM Roles
+        * An IAM identity with specific permissions
+        * Not uniquely associated with one person
+        * Temporaryy security credentials
+        * Examples of IAM roles delegating access
+            -   Used by an IAM user in the same AWS account as the role
+            -   Used by an AWS service -- such as EC2 -- in the same account as the role
+            -   Use by an IAM user in a different AWS account than the role
+* Securing a New AWS Account
+    -   Create Root user with email and password
+    * Step 1 -- Stop using the account root user
+    * Step 2 -- Enable multi-factor authentication
+    * Step 3 -- Use AWS CloudTrail
+    * Step 4 -- Enable a billing report, such as the AWS Cost and Usage Report
+* Securing Accounts
 ## Automated QA
 
 ### Unit Testing
