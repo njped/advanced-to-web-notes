@@ -589,6 +589,53 @@ array.map(element => {
     * Step 3 -- Use AWS CloudTrail
     * Step 4 -- Enable a billing report, such as the AWS Cost and Usage Report
 * Securing Accounts
+    * Service Control Policies (SCPs) offer centralized control over accounts
+        * SCPs are similar to IAM permissions policies
+            -   They use similar syntax
+            -   Instead, SCPs specify the maximum permission for an organization
+    * AWS Key Management Service (AWS KMS)
+        -   Enables you to create and manage encryption keys (private keys)
+    * Amazon Cognito
+        -   Adds user sign-up, sign-in, and access control to your web and mobile applications
+    * AWS Shield
+        -   DDoS protection service
+        -   Use it to minimize application downtime and latency
+* Securing Data
+    * Encryption encodes data with a secret key, which makes it unreadable
+    * AWS supports encryption of data at rest
+        -   Data at rest = Data stored physically
+    * Encrytion of data in transit (data moving across a network)
+    * AWS services support data in transit encrytion
+* Working to Ensure Compliance
+    * AWS Config
+        -   Assess, audit, and evaluate the configuratinos of AWS resources
+        -   Automatically evaluate recorded configurations versus desired configurations
+        -   Simplify compliance auditing and security analysis
+    * AWS Artifact
+        -   Is a resource for compliance-related information
+    
+### Networking and Content Delivery
+* Networking Basics
+    * IP Addresses
+* Amazon VPC
+    -   Enables you to provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define
+    -   Logically isolated from other VPCs
+    -   Dedicated to your AWS account
+    -   Belong to a single AWS Regionand can span multiple Availability Zones
+    -   You cannot change the address range after you create the VPC
+    -   When you create a VPC, you assign it to an IPv4 CIDR block (range of private IPv4 addresses)
+    -   CIDR blocks of subnets cannot overlap
+    -   Every instance has a default network interface
+    * Route Table
+        -   A route table contains a set of rules that you can configure to direct network traffic from your __subnet__
+        -   Each route specifies a destination and a target
+        -   Each subnet must be associated with a route table (at most one)
+    * VPC Endpoints
+        -   Interface endpoints (powered by AWS PrivateLink)
+        -   Gateway endpoints (Amazon S3 and Amazon DynamoDB)
+    
+
+
 ## Automated QA
 
 ### Unit Testing
