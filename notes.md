@@ -631,7 +631,99 @@ array.map(element => {
     * VPC Endpoints
         -   Interface endpoints (powered by AWS PrivateLink)
         -   Gateway endpoints (Amazon S3 and Amazon DynamoDB)
-    
+* VPC Security
+    * Security Groups
+        -   Security groups act at the instance level
+        -   Security groups have rules that control inbound and outbound instance traffic
+        -   Default security groups deny all inbound traffic and allow all outbound traffic
+        -   Security groups are stateful
+            -   Stateful --> 
+        -   All rules are evaluated before the decision to allow traffic
+    * Network ACLs (Network Access Control Lists)
+        -   A network ACL has separate inbound and out bownd rules, and each rule can either allow or deny traffic
+        -   Default network ACLs allow all inbound and outbound IPv4 traffic
+        -   Network ACLs are stateless
+            -   Stateless --> 
+        -   Custom network ACls deny all inbound and outboound traffic until you add rules
+        -   You can specify both allow and deny rules
+        -   Rules are evaluated in number order, starting with the lowest number
+* Route 53
+    -   Simple Routing -- Use in single-server environments
+    -   Weighted round robin routing -- Assign weights to resource record sets to specify the frequency
+    -   Latency routing -- Help improve your global applications
+    -   Geolocation routing -- Route traffic based on lovation of your users
+    -   Geoproximity routing -- Route traffic based on location of your resources
+    -   Failover routing -- Fail over to a backup site if your primary site becomes unreachable
+    -   Multivalue answer routing -- Respond to DNS queries with up to eight healthy records selected at random
+    * Route 53 is a global application
+    * Route 53 DNS failover
+        -   Configuring backup and failover scenarios for your own applications
+        -   Creating health checks
+* Amazon CloudFront
+    * Content Delivery Network (CDN)
+        -   Is a globally distrubuted system of caching servers
+        -   Caches copies of commonly requested files
+        -   Improves application use for users
+    -   Fast, Global and secure CDN service
+    -   Self-service model
+
+## Compute
+* Compute Services Overview
+![AWS Computing Services](./assets/AWS-computing-services.png)
+* Amazon Elastic Compute Cloud (EC2)
+    -   Examples: Application server, Web server, Database server and many other types of servers you can use
+    -   Provides virtual machines -- referred to as EC2 instance -- in the cloud
+    -   You can launch instances of any size into an Availability Zone anywhere in the world
+        -   Launch instances from Amazon Machine Images (AMIs)
+    -   You can control traffic to and from instances
+    * Step 1 -- Select an AMI
+        -   AMI Choices
+            1. Quick Start -- Linuz and Windows AMI
+            2. My AMIs -- Any AMIs that you have created
+            3. AWS Marketplace -- Pre-configured templates from third parties
+            4. Community AMIs -- AMIs shared by others; use at your own risk
+    * Step 2 -- Select an Instance Type
+        -   The instance type that you choose determines
+            1. Memory (RAM)
+            2. Processing Power (CPU)
+            3. Disk Space and Disk Type (Storage)
+            4. Network Performance
+        - Instance type provides, family, generation and size
+            -   Ex: t3.large
+                -   T is the family name
+                -   3 is the generation number
+                -   large is the storage size
+        -   Elastic Network Adapter (ENA) --> Supports network speeds of up to 100 Gbps
+        -   Intel 82599 Virual Function Interface --> Supports network speeds of up to 10 Gbsps
+    * Step 3 --  Specify Network Settings
+    * Step 4 -- Attach IAM Role
+    * Step 5 -- User Data Script
+        -   Use user data scriptsto customize the runtime environment of your instance
+            -   Script runs the first time the instance starts
+    * Step 6 -- Specify Storage Options
+        -   Configure the root volume
+    * Step 7 -- Add Tags
+        -   Tagging is how you can attach metadata to an EC2 instance
+    * Step 8 -- Security Group Settings
+        -   A security group is a set of firewall rules
+    * Step 9 -- Key Pair
+        -   At instance launch, you specify an existing key pair or create a new key pair.
+        -   A key pair consists of: 
+            -   A public keythat AWS stores
+            -   A private keyfile that you store.
+    * Running EC2 Instance
+        -   EC2 instances can also be created programmatically
+    * Elastic IP address
+        -   Rebooting an instance will not change any IP addresses or DNS hostnames
+        -   When an instance is stoppedand then started again --> 
+            -   The public IPv4 address and external DNS hostname will change
+            -   The private IPv4 address and internal DNS hostname do not change
+    * EC2 Instance Metadata
+        -   Instance metadata is data about your instance
+    * Amazon CloudWatch
+        -   Use Amazon CloudWatch to monitor EC2 instances
+        
+
 
 
 # Automated QA
