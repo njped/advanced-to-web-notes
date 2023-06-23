@@ -124,9 +124,7 @@ block
         <col>
         <col>
     </colgroup>
-    ```
-
-    * 
+```
 
 * Frames
     - `<iframe>`
@@ -301,7 +299,7 @@ block
         crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-```
+    ```
 
 # JavaScript 
 
@@ -495,8 +493,8 @@ array.map(element => {
     * <tag> --> Tag
     * . --> Path
 
-## AWS
-### Cloud Concepts
+# AWS Hosting
+## Cloud Concepts
 * Cloud Computing is the on-demand delivery of compute power. database, storage, applications, and other IT resources via the internet with pay-as-you-go pricing
 * IaaS (infrastructure as a service) --> more control over IT resources
 * Paas (platform as a service) --> middle between both Iaas and SaaS
@@ -510,7 +508,7 @@ array.map(element => {
     -   Operations
     -   
 
-### Cloud Economics and Billing
+## Cloud Economics and Billing
 * Three fundamental frivers of cost with AWS
     -   Compute
     -   Storage
@@ -524,7 +522,7 @@ array.map(element => {
 
 
 
-### AWS Global Infrastructure
+## AWS Global Infrastructure
 * AWS Region is a geographical area
     -   Data replication across Regions is controlled by us
     -   Communication between Regions uses AWS backbone network infrastructure
@@ -551,7 +549,7 @@ array.map(element => {
         -   Minimized downtime
         -   No human intervention
 
-### AWS Cloud Security
+## AWS Cloud Security
 * Customer --> Responsibilty for security 'in' the cloud
 * AWS --> Responsibilty for security 'of' the cloud
 * Infrustructure as a service is customer mangaged (IaaS)
@@ -614,7 +612,7 @@ array.map(element => {
     * AWS Artifact
         -   Is a resource for compliance-related information
     
-### Networking and Content Delivery
+## Networking and Content Delivery
 * Networking Basics
     * IP Addresses
 * Amazon VPC
@@ -636,9 +634,9 @@ array.map(element => {
     
 
 
-## Automated QA
+# Automated QA
 
-### Unit Testing
+## Unit Testing
 * Unit Test --> Tests one small part of your code
 * Integration Test --> Test how the whole application works
 * Automated Test --> Test the users experience in the browser
@@ -647,6 +645,15 @@ array.map(element => {
 * Jasmine BDD testing browser
     * https://jasmine.github.io/tutorials/your_first_suite
 
+
+
+# Database
+
+## MongoDB 
+* SQL --> 
+* Non-SQL --> 
+![Comparison Operators](./assets/comparison-operators.png)
+![Logical Operators](./assets/logical-operators.png)
 # Soft Skills
 
 ## Working in a Software Company
