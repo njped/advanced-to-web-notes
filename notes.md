@@ -442,6 +442,22 @@ array.map(element => {
 * A platform to write javascript programs
 * https://nodejs.org/api/globals.html -- just like mdn // Does not have a search bar
 
+## Express Node Setup
+```
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+.........
+.........
+app.listen(port, (err) => {
+    if (err) console.log(err);
+    console.log(`App Server listen on port: ${port}`);
+});
+
+```
+
 # Backend Security and Development
 ## SSL/TLS Cerificates
 * SSl --> Secure Sockets Layer (SSL) is a standard security technology for establishing an encrypted link between a server and a client
