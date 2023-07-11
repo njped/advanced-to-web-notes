@@ -738,7 +738,62 @@ app.listen(port, (err) => {
         -   Instance metadata is data about your instance
     * Amazon CloudWatch
         -   Use Amazon CloudWatch to monitor EC2 instances
-        
+* Amazon EC2 Cost Optimization
+* Container Services
+    * ECS
+    * Docker
+    * Kubernetes
+        -   Deploy and manage containerized applications at scale
+        -   Kubernetes orchestrates multiple Docker hosts/nodes
+    * AWS Elastic Beanstalk is managed service
+
+## Storage
+* Amazon EBS
+    -   Amazon EBS enables you to create individual storage volumes and attachthemto an Amazon EC2 instance
+    -   ![Amazon EBS Volume Types](./assets/aws-ebs-volume-types.png)
+* Amazon S3
+    -   Amazon S3 offers a range of object-level storage classes that are designed for different use cases
+    -   Access the data anywhere
+    -   Storing application assets 
+    -   Static Web Hosting
+    -   Backup and disaster recovery
+    -   Staging area for big data
+    -   Pay only for what you use
+    -   You do not pay for
+        -   Transfer IN to Amzaon S3
+        -   Transfer OUT from Amazon S3 to Amazon CloudFront or Amazon EC2
+    * Storge Pricing
+        -   Storage Class Type
+        -   Amount of Storage
+* Amazon EFS
+    -   File storage in the AWS Cloud 
+    -   Works well for big data and analytics, media processing workflows, content management, web serving, and home directories
+    -   Petabyte-scale, low-latency file system
+    -   Shared storage
+    -   Elastic capacity
+    -   Supports Network File System (NFS) versions 4.0 and 4.1 (NFSv4)
+    -   
+* Amzaon S3 Glacier
+    -   Amazon S3 Glacier is designed to provide 11 9s of durability for objects.
+    -   It supports the encryption of data in transit and at rest through Secure Sockets Layer (SSL) or Transport Layer Security (TLS).
+    -   The Vault Lock feature enforces compliance through a policy.
+    -   Extremely low-cost design works well for long-term archiving
+    -   Takes a long time to retrieve data
+    -   AmazonS3 lifecycle policies enable you to delete or move objects based on age
+
+## Database
+* Amazon RDS
+    * Challenges of relational databases
+        -   Server maintenance and energy footprint 
+        -   Software installation and patches
+        -   Database backups and high availability 
+        -   Limits on scalability
+        -   Data security
+        -   Operating system (OS) installation and patches
+    -   Use for read-heavy database workloads
+    ![When to use Amazon RDS](./assets/)
+
+
 
 
 
@@ -762,6 +817,9 @@ app.listen(port, (err) => {
 * Non-SQL --> 
 ![Comparison Operators](./assets/comparison-operators.png)
 ![Logical Operators](./assets/logical-operators.png)
+
+## Postgres
+![Postgres Aggregate functions](./assets/postgres-aggr-functions.png)
 # Soft Skills
 
 ## Working in a Software Company
